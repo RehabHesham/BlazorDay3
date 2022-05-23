@@ -1,5 +1,6 @@
 ﻿@page "/Products"
 @inject IService<ProductDTO> prodService
+@inject IJSRuntime JSRuntime
 
 <h3>ListProducts</h3>
 
@@ -16,6 +17,8 @@
       <th scope="col">Category</th>
       <th scope="col">Image</th>
       <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -30,6 +33,8 @@
                     <td>@prod.Cat_Name</td>
                     <td><img style="width:50px;height:50px;" src="Images/@prod.Image"/></td>
                     <td><a href="/Product/edit/@prod.Id">Edit</a></td>
+                    <td><a href="/Product/Details/@prod.Id">Details</a></td>
+                    <td><a href="#delete" @onclick="() => delete(prod.Id)">Delete</a></td>
                 </tr>
             }
 
@@ -37,5 +42,5 @@
     </tbody>
 </table>
 @code {
-
+    
 }

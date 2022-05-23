@@ -644,3 +644,5 @@ D:\iti\9M\34 Blazor\BlazorDay3\BlazorDay3\bin\Debug\net5.0\wwwroot\_framework\Sh
 D:\iti\9M\34 Blazor\BlazorDay3\BlazorDay3\bin\Debug\net5.0\wwwroot\_framework\SharedResources.dll
 D:\iti\9M\34 Blazor\BlazorDay3\BlazorDay3\bin\Debug\net5.0\wwwroot\_framework\SharedResources.pdb
 D:\iti\9M\34 Blazor\BlazorDay3\BlazorDay3\obj\Debug\net5.0\build-gz\zCJuGtqY.gz
+D:\iti\9M\34 Blazor\BlazorDay3\BlazorDay3\obj\Debug\net5.0\RazorDeclaration\ProductComponents\ProductDetails.razor.g.cs
+D:\iti\9M\34 Blazor\BlazorDay3\BlazorDay3\obj\Debug\net5.0\Razor\ProductComponents\ProductDetails.razor.g.cs

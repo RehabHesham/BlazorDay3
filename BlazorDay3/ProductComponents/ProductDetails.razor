@@ -1,0 +1,23 @@
+﻿@page "/Product/Details/{id:int}"
+
+<h3>ProductDetails</h3>
+
+@if(product != null){
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="Images/@product.Image" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@product.Name</h5>
+    <p class="card-text">@product.Description</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Price : @product.Price</li>
+    <li class="list-group-item">Category : @product.Cat_Name</li>
+  </ul>
+</div>
+}else{
+    <p>Loading...</p>
+}
+
+<div class="text-right m-2">
+    <a class="btn btn-primary" href="/Products">Back to list</a>
+</div>
