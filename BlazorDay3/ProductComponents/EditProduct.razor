@@ -1,0 +1,55 @@
+﻿@page "/Product/edit/{id:int}"
+@inject IService<ProductDTO> prodService
+@inject IService<Category> catService
+
+<h3>EditProduct</h3>
+
+@if (product != null)
+{
+    <EditForm Model="product" OnValidSubmit="SaveProduct" >
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>
+        <div>
+            <label>Name</label>
+            <InputText @bind-Value="product.Name" class="form-control"></InputText>
+            <ValidationMessage For="()=>product.Name" class="text-danger"></ValidationMessage>
+        </div>
+        <div>
+            <label>Description</label>
+            <InputText @bind-Value="product.Description" class="form-control"></InputText>
+            <ValidationMessage For="()=>product.Description" class="text-danger"></ValidationMessage>
+        </div>
+        <div>
+            <label>Price</label>
+            <InputNumber @bind-Value="product.Price" class="form-control"></InputNumber>
+            <ValidationMessage For="()=>product.Price" class="text-danger"></ValidationMessage>
+            
+        </div>
+        <div>
+            <label>Image</label>
+            <InputText @bind-Value="product.Image" class="form-control"></InputText>
+            <ValidationMessage For="()=>product.Image" class="text-danger"></ValidationMessage>
+        </div>
+        <div>
+            <label>Category</label>
+            <InputSelect @bind-Value="product.Cat_Id" class="form-control">
+                @foreach (var item in categories)
+                   {
+                       <option value="@item.Id">@item.Name</option>
+                   }
+            </InputSelect>
+            <ValidationMessage For="()=>product.Cat_Id" class="text-danger"></ValidationMessage>
+
+        </div>
+        <div class="m-2 text-center">
+            <input type="submit" value="Update" class="btn btn-success">
+        </div>
+    </EditForm>
+}else
+{
+    <h3>Product Not Found</h3>
+}
+
+<div class="text-right m-2">
+    <a class="btn btn-primary" href="/Products">Back to list</a>
+</div>

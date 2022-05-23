@@ -1,0 +1,11 @@
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\SharedModels.deps.json
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\SharedModels.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\ref\SharedModels.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\SharedModels.pdb
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedModels.AssemblyInfoInputs.cache
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedModels.AssemblyInfo.cs
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedModels.csproj.CoreCompileInputs.cache
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedModels.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\ref\SharedModels.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedModels.pdb

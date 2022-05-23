@@ -1,0 +1,12 @@
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\SharedResouces.deps.json
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\SharedResouces.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\ref\SharedResouces.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\bin\Debug\net5.0\SharedResouces.pdb
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.csproj.AssemblyReference.cache
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.AssemblyInfoInputs.cache
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.AssemblyInfo.cs
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.csproj.CoreCompileInputs.cache
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\ref\SharedResouces.dll
+D:\iti\9M\34 Blazor\BlazorDay3\SharedResouces\obj\Debug\net5.0\SharedResouces.pdb
